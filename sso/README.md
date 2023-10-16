@@ -32,6 +32,8 @@ Is for authentication and authorizations of the users.
   - Id
   - UserId
   - Timestamp
+  - IPAddress
+  - IPTrace
   - CreatedAt
   - UpdatedAt
   - IsActive
