@@ -3,7 +3,7 @@ package email
 import (
 	"testing"
 
-	"github.com/ali-ghn/Coinopay_Go/shared"
+	"github.com/ali-ghn/AlighnSolution_go/shared"
 )
 
 func TestSendEmail(t *testing.T) {

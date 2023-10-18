@@ -3,7 +3,7 @@ package store
 import (
 	"context"
 
-	"github.com/ali-ghn/Coinopay_Go/shared"
+	"github.com/ali-ghn/AlighnSolution_go/shared"
 	"github.com/google/uuid"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"

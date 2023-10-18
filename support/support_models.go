@@ -1,7 +1,7 @@
 package support
 
 import (
-	"github.com/ali-ghn/Coinopay_Go/attachment"
+	"github.com/ali-ghn/AlighnSolution_go/attachment"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

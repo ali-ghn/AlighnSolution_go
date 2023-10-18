@@ -1,7 +1,7 @@
 package invoice
 
 import (
-	"github.com/ali-ghn/Coinopay_Go/transaction"
+	"github.com/ali-ghn/AlighnSolution_go/transaction"
 	"github.com/shopspring/decimal"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

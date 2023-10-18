@@ -3,7 +3,7 @@ package attachment
 import (
 	"bytes"
 
-	"github.com/ali-ghn/Coinopay_Go/shared"
+	"github.com/ali-ghn/AlighnSolution_go/shared"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/gridfs"
 )

@@ -3,7 +3,7 @@ package wallet
 import (
 	"context"
 
-	"github.com/ali-ghn/Coinopay_Go/shared"
+	"github.com/ali-ghn/AlighnSolution_go/shared"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"

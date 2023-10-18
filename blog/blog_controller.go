@@ -4,9 +4,9 @@ import (
 	"math"
 	"net/http"
 
-	"github.com/ali-ghn/Coinopay_Go/auth"
-	"github.com/ali-ghn/Coinopay_Go/shared"
-	"github.com/ali-ghn/Coinopay_Go/user"
+	"github.com/ali-ghn/AlighnSolution_go/auth"
+	"github.com/ali-ghn/AlighnSolution_go/shared"
+	"github.com/ali-ghn/AlighnSolution_go/user"
 	"github.com/gin-gonic/gin"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo/options"

@@ -3,11 +3,11 @@ package invoice
 import (
 	"net/http"
 
-	"github.com/ali-ghn/Coinopay_Go/auth"
-	"github.com/ali-ghn/Coinopay_Go/paymentProcessor"
-	"github.com/ali-ghn/Coinopay_Go/shared"
-	"github.com/ali-ghn/Coinopay_Go/store"
-	"github.com/ali-ghn/Coinopay_Go/transaction"
+	"github.com/ali-ghn/AlighnSolution_go/auth"
+	"github.com/ali-ghn/AlighnSolution_go/paymentProcessor"
+	"github.com/ali-ghn/AlighnSolution_go/shared"
+	"github.com/ali-ghn/AlighnSolution_go/store"
+	"github.com/ali-ghn/AlighnSolution_go/transaction"
 	"github.com/gin-gonic/gin"
 	"github.com/shopspring/decimal"
 	"go.mongodb.org/mongo-driver/bson"
