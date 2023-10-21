@@ -26,6 +26,16 @@ type UserClaim struct {
 	Email string
 }
 
+func (uc *UserClaim) Compare(compareTo *UserClaim) (bool, error) {
+	if uc.Email == "" || compareTo.Email == "" {
+		return false, fmt.Errorf("UserClaim must contain email as the primary key")
+	}
+	if uc.Email != compareTo.Email {
+		return false, fmt.Errorf("emails do not match, expected %v got %v", uc.Email, compareTo.Email)
+	}
+	return true, nil
+}
+
 func (a Auth) CreateToken(c *UserClaim) (string, error) {
 	token := jwt.NewWithClaims(jwt.SigningMethodHS512, c)
 	jt, err := token.SignedString(a.AuthKey)
