@@ -21,6 +21,7 @@ import (
 )
 
 var client *mongo.Client
+var routerFactoryState []*gin.Engine
 
 func init() {
 

@@ -1,0 +1,17 @@
+{
+  "Email": {
+    "SmtpHost":"127.0.0.1:1025",
+    "SmtpPassword":"bE8fbAe9gzDxnwYyISYl0A"
+  },
+  "Key": "Tao_stvdKx1bP7RuuAlbUqBTP3mnYrWU",
+  "PaymentProcessor": {
+    "PaymentProcessorToken":"token 4b9bf39f9b18dff14285fce8e8de9937a30fdd3a",
+    "PaymentProcessorHost":"https://testnet.demo.btcpayserver.org/api/v1",
+    "PaymentProcessorStoreId":"ChsKJKCKheQLeYdoG6Y14RjLr8AWGt9axQmuB8XGNo8u"
+  },
+  "Router": [
+    {"_nameConvention":"{AppName}_{routerId}_{Hostname}"},
+    "AlighnSolution_1_alighn.dev",
+    "Comet_2_cometled.ir"
+  ]
+}
