@@ -1,5 +1,5 @@
 package shared
 
 const (
-	DATABASE_NAME = "Coinopay"
+	DATABASE_NAME = "AlighnSolution"
 )

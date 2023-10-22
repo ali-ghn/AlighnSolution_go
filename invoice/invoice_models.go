@@ -1,7 +1,6 @@
 package invoice
 
 import (
-	"github.com/ali-ghn/AlighnSolution_go/transaction"
 	"github.com/shopspring/decimal"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
@@ -15,7 +14,8 @@ type Invoice struct {
 	Currency           string
 	Status             string
 	CallbackUrl        string
-	Transactions       []transaction.Transaction
+	// TODO: implement this
+	Transactions []string
 }
 
 type CreateInvoiceRequest struct {
@@ -26,13 +26,14 @@ type CreateInvoiceRequest struct {
 }
 
 type CreateInvoiceResponse struct {
-	Id           string
-	StoreId      string
-	Description  string
-	Amount       decimal.Decimal
-	Currency     string
-	Status       string
-	Transactions []transaction.Transaction
+	Id          string
+	StoreId     string
+	Description string
+	Amount      decimal.Decimal
+	Currency    string
+	Status      string
+	// TODO: implement this
+	Transactions []string
 }
 
 type GetInvoiceRequest struct {
@@ -41,13 +42,14 @@ type GetInvoiceRequest struct {
 }
 
 type GetInvoiceResponse struct {
-	Id           string
-	StoreId      string
-	Amount       decimal.Decimal
-	Currency     string
-	Status       string
-	Description  string
-	Transactions []transaction.Transaction
+	Id          string
+	StoreId     string
+	Amount      decimal.Decimal
+	Currency    string
+	Status      string
+	Description string
+	// TODO: implement this
+	Transactions []string
 }
 
 type GetInvoicesRequest struct {

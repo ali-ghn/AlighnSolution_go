@@ -8,7 +8,6 @@ import (
 	"github.com/ali-ghn/AlighnSolution_go/cryptography"
 	"github.com/ali-ghn/AlighnSolution_go/email"
 	"github.com/ali-ghn/AlighnSolution_go/invoice"
-	"github.com/ali-ghn/AlighnSolution_go/paymentProcessor"
 	"github.com/ali-ghn/AlighnSolution_go/services"
 	"github.com/ali-ghn/AlighnSolution_go/settings"
 	"github.com/ali-ghn/AlighnSolution_go/store"
@@ -69,8 +68,7 @@ func main() {
 	sc := store.NewStoreController(auth.NewAuth([]byte(key.(string))),
 		store.NewStoreRepository(client), user.NewUserRepository(client))
 
-	ic := invoice.NewInvoiceController(paymentProcessor.NewPaymentProcessor(ppToken.(string),
-		ppHost.(string), ppStoreId.(string), *resty.New()),
+	ic := invoice.NewInvoiceController(
 		invoice.NewInvoiceRepository(client), store.NewStoreRepository(client),
 		auth.NewAuth([]byte(key.(string))))
 
